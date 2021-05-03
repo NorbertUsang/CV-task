@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    
+}
+
+.intro{
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+.intro a{
+    color: darkblue;
+}
+
+h3{
+    color: cornflowerblue;
+    margin-bottom: -8px;
+}
+
+.data p{
+    margin: 25px;
+    text-indent: 50px;
+}
+
+.edu dt{
+    text-indent: 35px;
+}
+
+.edu dd{
+    text-indent: 20px;
+}
+
+.experience p{
+    text-indent: 10px;
+}
+
+@media screen and (min-width:700px) {
+    body{
+        font-size: 30px;
+    }
+}
